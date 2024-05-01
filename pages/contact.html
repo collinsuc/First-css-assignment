@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../all_css/contact.css">
+</head>
+<body class="blue">
+    <h1 style="color: red;">This is Our Contact Page</h1>
+
+    <!--Subheader color cyan-->
+    <h2>To contact me directly, fill-in the form below!</h2>
+    <for action="mailto:collins.ahuchaogu@gmail.com" method="POST">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label for="gender">Gender</label> <br>
+        <input type="radio" name="gender" id="" value="male"> Male <br>
+        <input type="radio" name="gender" id="" value="female"> Female <br>
+        <input type="radio" name="gender" id="" value="Not Saying"> Not Saying <br>
+
+        <label for="Email_list">Do you wish to sign up for my regular email list?</label><br>
+        <input type="checkbox" name="Email_list" id="" value="Yes">Yes<br>
+        
+        <label for="favorite_car_brand">Favorite Brand of Car:</label><br>
+        <select id="Favorite Car Brand" name="Favorite Car Brand">
+            <option value="Lexus">LAMBOGINI</option>
+            <option value="Mercedes">MCLAUREN F1</option>
+            <option value="Toyota">PEGANI ROSTER</option>
+            <option value="Toyota">BUGGATTI</option>
+        </select><br>
+
+                <textarea id="about" name="about" rows="10" cols="30" placeholder ="Please, Leave a message"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</body>
+</html>
